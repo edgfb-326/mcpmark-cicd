@@ -1,9 +1,7 @@
-// This file has linting errors
-const unusedVar = 'this is unused';
-
+// Fixed linting errors
 function test() {
-  console.log("Using double quotes");
-  let missingSemi = 'no semicolon'
+  console.log('Using single quotes');
+  let missingSemi = 'no semicolon';
 }
 
 test();
