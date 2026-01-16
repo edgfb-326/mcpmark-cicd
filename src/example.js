@@ -1,1 +1,2 @@
-var unused = "double quotes"
+const example = 'single quotes';
+module.exports = example;
